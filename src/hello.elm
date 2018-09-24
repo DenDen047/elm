@@ -4,4 +4,8 @@ import Html
 
 
 main =
-    Html.text "こんにちは世界樹"
+    Html.text greeting
+
+greeting : String
+greeting =
+    "こんにちは世界樹"
